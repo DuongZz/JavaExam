@@ -33,7 +33,7 @@ public class Student extends javax.swing.JFrame {
         svList.add(newSV);
         newSV.getDtk();
         System.out.println(">>> Thông tin sinh viên: "+newSV.getInfo());
-        System.out.println("Xếp loại: "+ newSV.Rating());
+        System.out.println("Xếp loại: " +newSV.Rating());
     }
     
     
