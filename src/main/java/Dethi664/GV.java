@@ -3,7 +3,7 @@ package Dethi664;
 
 
 public class GV {
-    String id, hoTen, maGV, diaChi, gioiTinh; 
+    private String id, hoTen, maGV, diaChi, gioiTinh; 
     Khoa khoa;
 
     public GV(String id, String hoTen, String maGV, String diaChi, String gioiTinh, Khoa khoa) {
