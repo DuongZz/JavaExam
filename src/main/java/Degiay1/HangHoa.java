@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class HangHoa {
     String maHang;
     String ten;
-    int giaBan;
+    float giaBan;
 
-    public HangHoa(String maHang, String ten, int giaBan) {
+    public HangHoa(String maHang, String ten, float giaBan) {
         this.maHang = maHang;
         this.ten = ten;
         this.giaBan = giaBan;
@@ -29,11 +29,11 @@ public class HangHoa {
         this.ten = ten;
     }
 
-    public int getGiaBan() {
+    public float getGiaBan() {
         return giaBan;
     }
 
-    public void setGiaBan(int giaBan) {
+    public void setGiaBan(float giaBan) {
         this.giaBan = giaBan;
     }
 
@@ -47,7 +47,7 @@ public class HangHoa {
         System.out.print("Nhập tên hàng: ");
         String tenHang = input.nextLine();
         System.out.print("Nhập giá bán: ");
-        int giaBan = input.nextInt();
+        float giaBan = input.nextFloat();
         HangHoa hh = new HangHoa(maHang, tenHang, giaBan);
         System.out.println(">>>>Thông tin mặt hàng: " + hh.getInfo());
 
